@@ -38,7 +38,7 @@ export const Large = Template.bind({});
 Large.args = {
   size: 'large',
   label: 'Button',
-  // backgroundColor: '#ff0000',
+  backgroundColor: '#ff0000',
 };
 
 export const Small = Template.bind({});
