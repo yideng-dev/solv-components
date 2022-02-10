@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> 测试用例
+          Edit <code>src/App.tsx</code>
+          测试用例
         </p>
 
         <a

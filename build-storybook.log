@@ -1,0 +1,24 @@
+$ build-storybook -s public --output-dir /var/folders/dy/2r6tgmwj3d7cyc5h1tn1m9rw0000gn/T/chromatic--18370-RBlg0uv03gQH
+info @storybook/react v6.4.18
+info 
+info => Cleaning outputDir: /var/folders/dy/2r6tgmwj3d7cyc5h1tn1m9rw0000gn/T/chromatic--18370-RBlg0uv03gQH
+(node:18382) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+
+https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ERR! Error: No configuration files have been found in your configDir (/Users/yuanzhijia/Desktop/solv-components/.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-common/dist/cjs/utils/validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-common/dist/cjs/utils/load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-common/dist/cjs/presets.js:342:131)
+ERR!     at buildStaticStandalone (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-server/dist/cjs/build-static.js:97:48)
+ERR!     at async buildStatic (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
+ERR!  Error: No configuration files have been found in your configDir (/Users/yuanzhijia/Desktop/solv-components/.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-common/dist/cjs/utils/validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-common/dist/cjs/utils/load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-common/dist/cjs/presets.js:342:131)
+ERR!     at buildStaticStandalone (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-server/dist/cjs/build-static.js:97:48)
+ERR!     at async buildStatic (/Users/yuanzhijia/Desktop/solv-components/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
